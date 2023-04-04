@@ -1,0 +1,156 @@
+
+.content{
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc; 
+
+}
+.post-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post_form input {
+    width:100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: cadetblue;
+    border-radius: 100px;
+    color: white;
+
+}
+.header {
+    border: 1px solid #ccc;
+}
+.post_form input::placeholder{
+    color:white;
+}
+.post_form textarea::placeholder{
+    color:black;
+}
+.post_form input.file{
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.post_form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    height: 30vh;
+    background-color: antiquewhite;
+}
+
+.post_form form button{
+    padding: 10px 24px;
+    background-color: cadetblue;
+    border: 0;
+    border-radius: 6px;
+}
+
+html, body{
+    height:100%;
+}
+
+.post ul{
+    padding: 0;
+}
+
+.posts li {
+    position: relative;
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 17px;
+    list-style: none;
+
+}
+
+
+
+
+.posts li .option_icon {
+    width: 20px;
+    position:absolute;
+    top:18px;
+    right:30px;
+}
+
+.posts li .option {
+    display: none; 
+    position:absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: White;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.option a{
+    text-decoration: none;
+}
+
+.header{
+    display:flex;
+}
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .logo img{
+    width: 60%;
+}
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name{
+    font-weight: bold;
+}
+
+.posts li .name_body .date-time{
+    color: gray;
+}
+ul{
+    padding: 0;
+}
+
+.like img{
+    width: 30px;
+
+}
+.like{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+    
+}
+
+
+
